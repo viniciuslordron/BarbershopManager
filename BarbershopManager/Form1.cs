@@ -6,5 +6,17 @@ namespace BarbershopManager
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCriarConta_Click(object sender, EventArgs e)
+        {
+            FormCriarConta formCriarConta = new FormCriarConta();
+            formCriarConta.ShowDialog();
+
+        }
     }
 }
